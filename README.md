@@ -39,7 +39,7 @@ THIS IS ONLY AN EXAMPLE, YOUR NEEDS MAY BE DIFFERENT (E.G. YOU MIGHT NEED 3 REQU
 
 Example HTML form (after creating function/route in app.py):
 ```
-<form action="https://thatformworks.pythonanywhere.com/mailYOURNAME">
+<form action="https://thatformworks.pythonanywhere.com/mailYOURNAME" method="POST">
     <input type="text" name="RELEVANT NAME GOES HERE">
     <input type="email" name="RELEVANT NAME GOES HERE">
     <input type="submit" value="SUBMIT">
